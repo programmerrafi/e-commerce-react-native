@@ -5,14 +5,14 @@ import { useNavigation } from "@react-navigation/native";
 const HomeScreen = () => {
   const navigation = useNavigation();
 
-  // useLayoutEffect(() => {
-  //   navigation.setOptions({
-  //     headerShown: false,
-  //   });
-  // }, []);
+  useLayoutEffect(() => {
+    navigation.setOptions({
+      headerShown: false,
+    });
+  }, []);
 
   return (
-    <View className="bg-red-500">
+    <View className="bg-blueC">
       <Text className="text-center text-white text-2xl font-bold">
         Home Screen
       </Text>
