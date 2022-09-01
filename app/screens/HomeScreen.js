@@ -1,9 +1,9 @@
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import { View, Text, Image, ScrollView } from "react-native";
-import { useNavigation } from "@react-navigation/native";
+// import { useNavigation } from "@react-navigation/native";
 
 const HomeScreen = () => {
-  const navigation = useNavigation();
+  // const navigation = useNavigation();
 
   // useLayoutEffect(() => {
   //   navigation.setOptions({
