@@ -1,9 +1,7 @@
 import React from "react";
 import {
-  Input,
   Pressable,
   Text,
-  HStack,
   Box,
   ScrollView,
   Flex,
@@ -12,7 +10,7 @@ import {
 } from "native-base";
 import { Colors } from "../../configs/color";
 import { products } from "../../data/products";
-import { Rating } from "./";
+import { Rating } from "../shared";
 
 function HomeProducts() {
   return (
@@ -50,7 +48,7 @@ function HomeProducts() {
                 {product.name}
               </Text>
               {/* Rating */}
-              <Rating value={product.rating} text={product.numReviews} />
+              <Rating value={product.rating} />
             </Box>
           </Pressable>
         ))}
