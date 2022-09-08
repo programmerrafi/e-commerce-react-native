@@ -1,12 +1,12 @@
 import { TailwindProvider } from "tailwindcss-react-native";
 import { NativeBaseProvider } from "native-base";
-import NotVerifyScreen from "./app/screens/NotVerifyScreen";
+import HomeScreen from "./app/screens/HomeScreen";
 
 export default function App() {
   return (
     <NativeBaseProvider>
       <TailwindProvider>
-        <NotVerifyScreen />
+        <HomeScreen />
       </TailwindProvider>
     </NativeBaseProvider>
   );

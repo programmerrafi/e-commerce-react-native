@@ -1,22 +1,13 @@
-import React, { useEffect, useLayoutEffect, useState } from "react";
-import { View, Text, Image, ScrollView } from "react-native";
-// import { useNavigation } from "@react-navigation/native";
+import React from "react";
+import { Image, Box, Heading, Input, VStack, Text } from "native-base";
+import { HomeSearch, HomeProducts } from "../components/Home";
 
 const HomeScreen = () => {
-  // const navigation = useNavigation();
-
-  // useLayoutEffect(() => {
-  //   navigation.setOptions({
-  //     headerShown: false,
-  //   });
-  // }, []);
-
   return (
-    <View className="bg-blueC text-center">
-      <Text className="text-center text-white text-2xl font-bold">
-        Home Screen
-      </Text>
-    </View>
+    <Box className="bg-subGreen flex-1">
+      <HomeSearch />
+      <HomeProducts />
+    </Box>
   );
 };
 

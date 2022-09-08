@@ -2,7 +2,7 @@ export const products = [
   {
     _id: "1",
     name: "Smartwatch",
-    image: "require(assets/w1.png)",
+    image: `${require("../assets/w1.png")}`,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid",
     price: 89,
@@ -13,7 +13,7 @@ export const products = [
   {
     _id: "2",
     name: "Smartwatch",
-    image: "require(assets/w2.png)",
+    image: `${require("../assets/w2.png")}`,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid",
     price: 589,
@@ -24,7 +24,7 @@ export const products = [
   {
     _id: "3",
     name: "Smartwatch",
-    image: "require(assets/w3.png)",
+    image: `${require("../assets/w3.png")}`,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid",
     price: 839,
@@ -35,7 +35,7 @@ export const products = [
   {
     _id: "4",
     name: "Smartwatch",
-    image: "require(assets/w4.png)",
+    image: `${require("../assets/w4.png")}`,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid",
     price: 400,
@@ -46,7 +46,7 @@ export const products = [
   {
     _id: "5",
     name: "Smartwatch",
-    image: "require(assets/w5.png)",
+    image: `${require("../assets/w5.png")}`,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid",
     price: 639,
@@ -57,7 +57,7 @@ export const products = [
   {
     _id: "6",
     name: "Smartwatch",
-    image: "require(assets/w6.png)",
+    image: `${require("../assets/w6.png")}`,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid",
     price: 562,
