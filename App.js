@@ -1,6 +1,6 @@
 import { TailwindProvider } from "tailwindcss-react-native";
 // import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import HomeScreen from "./app/screens/HomeScreen";
+import LoginScreen from "./app/screens/LoginScreen";
 import { NativeBaseProvider } from "native-base";
 // import { Provider } from "react-redux";
 // import { store } from "./app/Redux/store";
@@ -11,7 +11,7 @@ export default function App() {
   return (
     <NativeBaseProvider>
       <TailwindProvider>
-        <HomeScreen />
+        <LoginScreen />
       </TailwindProvider>
     </NativeBaseProvider>
     // <NavigationContainer>
