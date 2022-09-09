@@ -1,12 +1,12 @@
 import { TailwindProvider } from "tailwindcss-react-native";
 import { NativeBaseProvider } from "native-base";
-import ProfileScreen from "./app/screens/ProfileScreen";
+import PaymentScreen from "./app/screens/PaymentScreen";
 
 export default function App() {
   return (
     <NativeBaseProvider>
       <TailwindProvider>
-        <ProfileScreen />
+        <PaymentScreen />
       </TailwindProvider>
     </NativeBaseProvider>
   );
