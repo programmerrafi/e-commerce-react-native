@@ -65,4 +65,5 @@ export const products = [
     rating: 4,
     numReviews: 4,
   },
+  // delete item
 ];

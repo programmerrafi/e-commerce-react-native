@@ -51,13 +51,14 @@ const SingleProductScreen = () => {
           <Spacer />
           <Heading className="font-bold text-black text-base">$400</Heading>
         </HStack>
-        <Text lineHeight={24} fontSize={12}>
+        <Text lineHeight={24} fontSize={12} className="font-medium">
           NativeBase VS Code Extensions are specifically designed to quicken
           your development process using NativeBase 3.0. NativeBase snippets are
           shorthand for commonly used NativeBase components. NativeBase is
           supported in Expo or React Native CLI initiated apps. Web support is
           made possible by react-native-web . Refer the guides shown below to
-          setup NativeBase in your React app.
+          setup NativeBase in your React app. NativeBase VS Code Extensions are
+          specifically designed to quicken your development
         </Text>
         <Buttone
           bg={Colors.main}
