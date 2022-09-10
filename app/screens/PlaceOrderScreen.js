@@ -1,17 +1,4 @@
-import {
-  Pressable,
-  Text,
-  Box,
-  ScrollView,
-  Flex,
-  Image,
-  Heading,
-  Center,
-  HStack,
-  Button,
-  View,
-  VStack,
-} from "native-base";
+import { Box, ScrollView, Heading } from "native-base";
 import { FontAwesome, FontAwesome5, Ionicons } from "@expo/vector-icons";
 import { Colors } from "../configs/color";
 import React from "react";

@@ -1,12 +1,12 @@
 import { TailwindProvider } from "tailwindcss-react-native";
 import { NativeBaseProvider } from "native-base";
-import PlaceOrderScreen from "./app/screens/PlaceOrderScreen";
+import OderScreen from "./app/screens/OderScreen";
 
 export default function App() {
   return (
     <NativeBaseProvider>
       <TailwindProvider>
-        <PlaceOrderScreen />
+        <OderScreen />
       </TailwindProvider>
     </NativeBaseProvider>
   );
