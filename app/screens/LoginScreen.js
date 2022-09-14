@@ -12,7 +12,7 @@ import {
 } from "native-base";
 import { Colors } from "../configs/color";
 
-const LoginScreen = () => {
+const LoginScreen = ({ navigation }) => {
   return (
     <Box flex={1} bg="black">
       <Image
@@ -52,10 +52,11 @@ const LoginScreen = () => {
           }}
           className={`w-[40%] my-8 rounded-3xl`}
           bg={Colors.main}
+          onPress={() => navigation.navigate("Bottom")}
         >
           LOGIN
         </Button>
-        <Pressable mt={4}>
+        <Pressable mt={4} onPress={() => navigation.navigate("Register")}>
           <Text className="text-deepestGray">SIGN UP</Text>
         </Pressable>
       </Box>

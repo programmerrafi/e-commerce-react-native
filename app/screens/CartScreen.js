@@ -1,3 +1,4 @@
+import { useNavigation } from "@react-navigation/native";
 import { Text, Box, Center, HStack, Button } from "native-base";
 import React from "react";
 // import CartEmpty from "../components/Cart/CartEmpty";
@@ -6,6 +7,8 @@ import Buttone from "../components/shared/Buttone";
 import { Colors } from "../configs/color";
 
 const CartScreen = () => {
+  const navigation = useNavigation();
+
   return (
     <Box flex={1} safeAreaTop bg={Colors.subGreen}>
       {/* Header */}
@@ -52,6 +55,7 @@ const CartScreen = () => {
               color={Colors.white}
               mt={5}
               pressBg={Colors.black}
+              onPress={() => navigation.navigate("Shipping")}
             >
               CHECKOUT
             </Buttone>

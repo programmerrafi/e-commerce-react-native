@@ -11,6 +11,7 @@ import { Ionicons, FontAwesome } from "@expo/vector-icons";
 import { Colors } from "../configs/color";
 import React from "react";
 import Buttone from "../components/shared/Buttone";
+import { useNavigation } from "@react-navigation/native";
 
 const paymentMethods = [
   {
@@ -31,6 +32,8 @@ const paymentMethods = [
 ];
 
 const PaymentScreen = () => {
+  const navigation = useNavigation();
+
   return (
     <Box flex={1} safeAreaTop bg={Colors.main} py={5}>
       {/* Header */}
@@ -78,6 +81,7 @@ const PaymentScreen = () => {
               color={Colors.white}
               pressBg={Colors.deepGray}
               mt={5}
+              onPress={() => navigation.navigate("PlaceOrder")}
             >
               CONTINUE
             </Buttone>

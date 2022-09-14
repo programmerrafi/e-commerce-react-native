@@ -18,14 +18,14 @@ export default function App() {
         <Provider store={store}>
           <TailwindProvider>
             <Stack.Navigator
-              initialRouteName="Bottom"
+              initialRouteName="Login"
               screenOptions={{
                 headerShown: false,
               }}
             >
-              <Stack.Screen name="LoginScreen" component={LoginScreen} />
-              <Stack.Screen name="RegisterScreen" component={RegisterScreen} />
-              <Stack.Screen name="OderScreen" component={OderScreen} />
+              <Stack.Screen name="Login" component={LoginScreen} />
+              <Stack.Screen name="Register" component={RegisterScreen} />
+              <Stack.Screen name="Order" component={OderScreen} />
               <Stack.Screen name="Bottom" component={BottomNav} />
             </Stack.Navigator>
           </TailwindProvider>

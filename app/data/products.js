@@ -39,7 +39,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid",
     price: 400,
-    countInStock: 8,
+    countInStock: 0,
     rating: 4,
     numReviews: 3,
   },
